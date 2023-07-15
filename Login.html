@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Login form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 600px;
+            background-image: url(https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?w=996&t=st=1689439153~exp=1689439753~hmac=00063f8c3f2aa4af2902efdef96780ebfe1038dde3b576159b973e2c381d070e);
+            color: white;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <form class="border border-2 w-25 p-2 rounded border-primary    ">
+        <h3 class="text-center"><span class="bi bi-person-fill"></span>User Login</h3>
+        <div class="mb-3">
+            <label for="UserName" class="form-label">UserName</label>
+            <div>
+                <input type="text" class="form-control" name="UserName">
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="Password" class="form-label">Password</label>
+            <div>
+                <input type="password" class="form-control" name="Password">
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="City" class="form-label">Mobile number</label>
+            <div>
+                <input type="text" class="form-control" placeholder="+91" pattern="\+91\d{10}">
+            </div>
+        </div>
+        <div class="mb-3">
+            <a href="Register.html">Register</a>
+        </div>
+        <div>
+            <button class="btn btn-primary w-100">Login</button>
+        </div>
+    </form>
+</body>
+</html>
